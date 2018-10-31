@@ -3,7 +3,7 @@
 
 Name:		perl-%{modname}
 Version:	%{perl_convert_version %{modver}}
-Release:	2
+Release:	3
 
 Summary:	Perl helper module for Gtk3
 License:	LGPLv2+ or Artistic

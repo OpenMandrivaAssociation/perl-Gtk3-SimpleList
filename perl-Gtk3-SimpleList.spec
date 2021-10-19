@@ -22,7 +22,7 @@ BuildRequires:	perl-ExtUtils-Depends >= 0.300
 This module provides a helper for Gtk3.
 
 %prep
-%setup -q -n %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{modver}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -34,4 +34,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 %files
 %doc COPYING Changes META.json META.yml README
 %{perl_vendorlib}/Gtk3/SimpleList*
-%{_mandir}/*/*
+%doc %{_mandir}/*/*

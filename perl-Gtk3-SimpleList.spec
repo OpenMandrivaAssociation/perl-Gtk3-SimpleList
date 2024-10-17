@@ -8,7 +8,7 @@ Release:	2
 Summary:	Perl helper module for Gtk3
 License:	LGPLv2+ or Artistic
 Group:		Development/GNOME and GTK+
-Url:		http://gtk2-perl.sf.net/
+Url:		https://gtk2-perl.sf.net/
 Source0:	https://cpan.metacpan.org/authors/id/T/TV/TVIGNAUD/Gtk3-SimpleList-%{modver}.tar.gz
 
 BuildArch:	noarch

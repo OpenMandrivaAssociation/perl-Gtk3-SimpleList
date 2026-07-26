@@ -1,15 +1,13 @@
 %define modname	Gtk3-SimpleList
-%define	modver	0.18
-
 Name:		perl-%{modname}
-Version:	%{perl_convert_version %{modver}}
-Release:	2
+Version:	0.18
+Release:	3
 
 Summary:	Perl helper module for Gtk3
 License:	LGPLv2+ or Artistic
 Group:		Development/GNOME and GTK+
 Url:		https://gtk2-perl.sf.net/
-Source0:	https://cpan.metacpan.org/authors/id/T/TV/TVIGNAUD/Gtk3-SimpleList-%{modver}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/T/TV/TVIGNAUD/Gtk3-SimpleList-%{version}.tar.gz
 
 BuildArch:	noarch
 
@@ -23,7 +21,7 @@ BuildRequires:	perl-ExtUtils-Depends >= 0.300
 This module provides a helper for Gtk3.
 
 %prep
-%autosetup -p1 -n %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
